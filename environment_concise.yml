@@ -1,6 +1,7 @@
 name: cloudreadydata
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - iris=2.3
   - proj4=5
@@ -14,5 +15,4 @@ dependencies:
   - azure-storage-blob
   - pip
   - dask-kubernetes
-prefix: /root/my-conda-envs/cloudreadydata
 
