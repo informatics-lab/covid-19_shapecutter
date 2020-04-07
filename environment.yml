@@ -1,0 +1,18 @@
+name: cloudreadydata
+channels:
+  - defaults
+dependencies:
+  - iris=2.3
+  - proj4=5
+  - ipywidgets
+  - zarr
+  - ipykernel
+  - mo_pack
+  - xarray
+  - netcdftime
+  - azure-storage
+  - azure-storage-blob
+  - pip
+  - dask-kubernetes
+prefix: /root/my-conda-envs/cloudreadydata
+
