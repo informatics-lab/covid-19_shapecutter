@@ -8,6 +8,7 @@ dependencies:
   - ipywidgets
   - zarr
   - ipykernel
+  - jupyter
   - mo_pack
   - xarray
   - netcdftime
