@@ -1,7 +1,7 @@
 {"_comment": "Key:Value pairs of shapefile names and geometry attributes, to be used with extract_regional_data_using_shapefile.ipynb",
  "shapefile_attributes": 
  {"UK_covid_reporting_regions": ["code", "name"], 
-  "US_COUNTY_POP": ["OBJECTID", "FIPS", "NAME", "STATE_NAME"], 
+  "US_COUNTY_POP": ["FIPS", "OBJECTID", "NAME", "STATE_NAME"], 
   "gadm36_ITA_2": ["GID_2", "HASC_2", "NAME_0", "NAME_1", "NAME_2", "ENGTYPE_2"], 
   "gadm36_Vietnam_2": ["GID_2", "HASC_2", "NAME_0", "NAME_1", "NAME_2", "ENGTYPE_2"], 
   "gadm36_BRA_2": ["GID_2", "HASC_2", "NAME_0", "NAME_1", "NAME_2", "ENGTYPE_2"], 
