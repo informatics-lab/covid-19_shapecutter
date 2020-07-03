@@ -1,19 +1,15 @@
-name: cloudreadydata
+name: shapecutter
 channels:
   - defaults
   - conda-forge
 dependencies:
-  - iris=2.3
+  - python=3.7
+  - iris
   - proj4=5
+  - shapely=1.6
+  - geopandas
   - ipywidgets
-  - zarr
   - ipykernel
   - jupyter
   - mo_pack
-  - xarray
-  - netcdftime
-  - azure-storage
-  - azure-storage-blob
   - pip
-  - dask-kubernetes
-
