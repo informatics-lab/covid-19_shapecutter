@@ -50,6 +50,7 @@ $ python shapecutter_script.py 20200601
 
 This will run the script for the data on date 01-June-2020, using default values for the other parameters. <br>To change the default parameters in the script, edit `shapecutter_script.py` at the [following section](https://github.com/informatics-lab/covid-19_shapecutter/blob/master/shapecutter_script.py#L221):
 ```python
+[LINE 221]
 if __name__ == "__main__":
 
     # DEFAULT VALUES
