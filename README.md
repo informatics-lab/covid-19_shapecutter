@@ -19,7 +19,8 @@ $ git clone https://github.com/informatics-lab/covid-19_shapecutter.git
 
 ## Run *shapecutter_notebook.ipynb* using Jupyter
 ### Pangeo platform
-If you have cloned this reposiory onto a platform like [Pangeo](https://covid19-response.informaticslab.co.uk) you can simply open `shapecutter_notebook.ipynb` and select the `covid-19` kernel and start running the cells.
+If you have cloned this reposiory onto a platform like [Pangeo](https://covid19-response.informaticslab.co.uk) you can simply open `shapecutter_notebook.ipynb`, select the `shapecutter` kernel and start running the cells.<br>
+See [Software Environment](#software-environment) for instructions on creating the right conda environment and making it available as a Jupyter kernel.
 
 ### Local Jupyter instance
 You can run `shapecutter_notebook.ipynb` locally either as a standalone Jupyter Notebook:
@@ -32,16 +33,11 @@ Or in a Jupyter Lab session:
 $ jupyter lab shapecutter_notebook.ipynb
 ```
 
-## Run *shapecutter_script.py* in a terminal
-You can run `shapecutter_script.py` in a terminal session, provided you have the right conda environment running.
+In order for these to run you need Jupyter to be available in your terminal session. You can either activate a conda environment then run the commands above, or install the appropriate conda environment as a Jupyter kenrel. Please see [Software Environment](#software-environment) for instructions on how to do this.
 
-### Running a conda environment
-```
-$ conda activate shapecutter
-```
-This will ensure the software libraries that `shapecutter_script.py` depends on are available. <br>
-This only needs to be ran once per terminal session. <br>
-See [Software Environment](#software-environment) for instructions on creating the right conda environment.
+## Run *shapecutter_script.py* in a terminal
+You can run `shapecutter_script.py` in a terminal session, provided you have the right conda environment running. <br>
+See [Software Environment](#software-environment) for instructions on creating and running the right conda environment.
 
 ### Run with default parameters
 ```
@@ -96,6 +92,14 @@ You an use [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/ins
 ```
 $ conda env create --file environment.yaml
 ```
+This will create a conda environment named `shapecutter`.
+
+### Running a conda environment
+You can activate the conda environment you just created with:
+```
+$ conda activate shapecutter
+```
+This only needs to be ran once per terminal session.
 
 ### Making conda environment available to Jupyter Notebooks
 You can make your conda environment available as a Jupyter Notebook kernel by doing the following:
